@@ -1,0 +1,20 @@
+<div class="about bg-black text-white py-5">
+<h2 class="text-center py-5">About Us </h2>
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-md-3 " *ngFor="let x of product">
+                <div class="item">
+                    <div class="card text-center" >
+                        <img [src]=x.img class="card-img-top" >
+                        <div class="card-body">
+                          <h5 class="card-title text-center">{{x.title}}</h5>
+                          <p class="card-text">{{ x.description}}</p>
+                          <p>price = {{x.price}}</p>
+                        </div>
+                        <p></p>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

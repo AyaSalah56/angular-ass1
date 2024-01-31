@@ -1,0 +1,26 @@
+.home
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8) 0% 100%) , url(../../assets/image/6.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    color: white;
+    line-height: 35px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.4);
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.home-social-icons i {
+    padding: 10px;
+}
